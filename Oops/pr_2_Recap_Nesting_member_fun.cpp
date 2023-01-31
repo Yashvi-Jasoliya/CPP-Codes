@@ -76,7 +76,7 @@ void binary ::ones_complement(void)
 
 void binary ::Display(void)
 {
-    cout << "Displaying your one's complement numbers:- \n";
+    cout << "Displaying one's complement numbers:- \n";
     
     for (int i = 0; i < s.length(); i++)
     {
