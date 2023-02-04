@@ -14,15 +14,15 @@ int main()
     {
     
        int grade;
-        cin >> grade;
+       cin >> grade;
         
         if (grade >= 38)
         {
-            int rem = grade % 5;
+            int reminder = grade % 5;
 
-            if (rem >= 3)
+            if (reminder >= 3)
             {
-                grade = grade + 5 - rem;
+                grade = grade + 5 - reminder;
             }
         }
         
