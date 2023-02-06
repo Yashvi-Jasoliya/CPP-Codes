@@ -13,6 +13,7 @@ int main()
     int max, min;
     int minCounter = 0;
     int maxCounter = 0;
+    
     cin >> max;
     min = max;
 
