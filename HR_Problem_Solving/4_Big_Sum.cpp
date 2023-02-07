@@ -13,9 +13,11 @@ int main()
     cin>>n;
     int num;
     long int sum=0;
+    
     for(int i=0; i<n; i++){
-        cin>>num;
-        sum= sum +num;
+      cin>>num;
+      sum= sum +num;
     }
+    
     cout<<sum;
 }
