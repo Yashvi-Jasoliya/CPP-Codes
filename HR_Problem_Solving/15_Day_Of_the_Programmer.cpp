@@ -6,6 +6,7 @@ int main()
 {
     int y;
     cin >> y;
+    
     if (y < 1918)
     {
         if (y % 4 == 0)
@@ -17,10 +18,12 @@ int main()
             cout << "13.09." << y << "\n";
         }
     }
+    
     else if (y == 1918)
     {
         cout << "26.09." << y << "\n";
     }
+    
     else
     {
         if (y % 400 == 0)
