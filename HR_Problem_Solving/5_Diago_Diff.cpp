@@ -14,7 +14,9 @@ cin>>n;
 
 int L_diago_sum =0; int R_diago_sum=0;
 int a[n][n];
+    
 for(int i=0; i<n; i++){
+    
     for(int j=0; j<n ; j++){
         cin>>a[i][j];
         if(i==j){
@@ -23,10 +25,11 @@ for(int i=0; i<n; i++){
         if(i+j == n-1){
              R_diago_sum = R_diago_sum +a[i][j];
         }
+    
     }
+
 }
 
-// Addind abs.....
-
 cout<< abs (L_diago_sum - R_diago_sum) <<"\n";
+    
 }
