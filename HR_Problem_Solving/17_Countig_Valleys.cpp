@@ -11,8 +11,9 @@ int main()
     string str;
     cin >> l;
     cin >> str;
-    for (int i = 0; i < str.length(); i++)
-    {
+    
+    for (int i = 0; i < str.length(); i++){
+        
         if (str[i] == 'D')
         { // OR height==0;
             height--;
@@ -25,6 +26,8 @@ int main()
         {
             count++;
         }
-    }
+   }
+    
     cout << count << "\n";
+    
 }
