@@ -16,9 +16,11 @@ int main()
  for(int arr_i = 0;arr_i < n;arr_i++){
        cin >> arr[arr_i];
         
-     if(arr[arr_i]>0) {
+         if(arr[arr_i]>0)
+        {
          p1++;
- }    
+        }    
+  
          if(arr[arr_i]<0)
         {
             n1++;
