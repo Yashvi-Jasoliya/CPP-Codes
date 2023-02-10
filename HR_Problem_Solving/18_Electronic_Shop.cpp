@@ -13,6 +13,7 @@ int main()
     vector<int> k(n), u(m);
     for (auto &e : k)
         cin >> e;
+    
     for (auto &e : u)
         cin >> e;
 
@@ -22,12 +23,15 @@ int main()
         for (j = 0; j < u.size(); j++)
         {
             t = k[i] + u[j];
+            
             if (t > max && t <= s)
             {
                 max = t;
             }
+            
         }
     }
     cout << max << '\n';
+    
     return 0;
 }
