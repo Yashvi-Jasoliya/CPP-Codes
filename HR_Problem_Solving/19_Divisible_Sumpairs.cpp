@@ -6,8 +6,7 @@ string ltrim(const string &);
 string rtrim(const string &);
 vector<string> split(const string &);
 
-int main()
-{
+int main(){
 
     int n, k;
     int count = 0;
@@ -25,13 +24,16 @@ int main()
     {
         for (int j = 0; j < n; j++)
         {
+            
             if (i < j)
             {
                 if ((array[i] + array[j]) % k == 0)
                     count++;
             }
+            
         }
     }
+    
     cout << count;
 
     return 0;
