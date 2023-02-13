@@ -9,9 +9,9 @@ vector<string> split(const string &);
 
 int main()
 {
-    int aa;
-    int oo;
-    aa = oo = 0;
+    int aa = 0;
+    int oo = 0;
+    
     int s,t,a,b,m,n,x;
     scanf("%d %d %d %d %d %d",&s,&t,&a,&b,&m,&n);
     
