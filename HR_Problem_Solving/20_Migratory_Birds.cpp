@@ -6,7 +6,8 @@ string ltrim(const string &);
 string rtrim(const string &);
 vector<string> split(const string &);
 
-int main(){
+int main()
+{
     int n, mb;
     int a[6] = {0};
     cin >> n;
@@ -17,11 +18,11 @@ int main(){
         a[mb]++;
     }
 
- int max = a[1], result = 1;
+
+    int max = a[1], result = 1;
 
     for (int i = 2; i < 6; i++)
     {
-        
         if (a[i] > max)
         {
             max = a[i];
@@ -31,7 +32,6 @@ int main(){
         {
             result = result < i ? result : i;
         }
-        
     }
 
     cout << result;
