@@ -1,7 +1,4 @@
 #include <bits/stdc++.h>
-#include <map>
-#include <set>
-#include <list>
 #include <cmath>
 #include <string>
 #include <bitset>
