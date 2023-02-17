@@ -30,7 +30,7 @@ int main()
             cout << "Mouse C"
                  << "\n";
         }
-    }
+   }
 
     return 0;
 }
