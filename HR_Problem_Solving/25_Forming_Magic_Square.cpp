@@ -27,7 +27,7 @@ int main()
 
         if (diff < best)
         {
-            best = diff;
+            best = diff
         }
         
    }
