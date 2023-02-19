@@ -8,7 +8,6 @@ using namespace std;
 int main()
 {
     int n, max = 0;
-
     int y;
     cin >> n;
     
@@ -30,6 +29,6 @@ int main()
 
     }
 
-    cout << max;
+    cout << max
     return 0;
 }
