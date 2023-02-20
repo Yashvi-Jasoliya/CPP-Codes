@@ -31,7 +31,6 @@ int main()
     for (int i = 0; i < n; i++)
     {
         cin >> temp;
-   
         if (score.empty() || score.top() != temp)
         {
             score.push(temp);
