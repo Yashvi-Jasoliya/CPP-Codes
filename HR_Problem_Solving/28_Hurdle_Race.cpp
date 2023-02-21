@@ -9,9 +9,7 @@ vector<string> split(const string &);
 int main()
 {
     int n, k;
-    
     int max_A = 0;
-    
     cin >> n >> k;
     
     vector<int> height(n);
@@ -22,7 +20,7 @@ int main()
         max_A = max(max_A, height[i]);
     }
    
-    cout << max(0, max_A - k);
+    cout << max(0, max_A - k)
 
     return 0;
 }
