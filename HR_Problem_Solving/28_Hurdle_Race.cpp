@@ -20,7 +20,7 @@ int main()
         max_A = max(max_A, height[i]);
     }
    
-    cout << max(0, max_A - k)
+    cout << max(0, max_A - k);
 
     return 0;
 }
