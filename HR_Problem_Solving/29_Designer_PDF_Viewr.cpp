@@ -15,8 +15,8 @@ int main()
     {
         cin >> height[i];
     }
+    
     cin >> s;
-
     int len, hei = 0;
     len = s.length();
 
