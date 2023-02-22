@@ -37,5 +37,5 @@ int main()
         }
     }
 
-    cout << len * hei << "\n";
+    cout << len * hei << "\n"
 }
