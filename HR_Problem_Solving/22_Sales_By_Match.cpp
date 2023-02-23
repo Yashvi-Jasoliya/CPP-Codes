@@ -27,7 +27,7 @@ int main()
 
     int ans = 0;
     FI(i, 1, 100)
-    ans = ans + a[i] / 2;
+    ans = ans + a[i] / 2
     printf("%d\n", ans);
     return 0;
 }
