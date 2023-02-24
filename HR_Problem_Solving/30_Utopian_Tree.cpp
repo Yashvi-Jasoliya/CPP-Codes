@@ -37,9 +37,10 @@ int main()
                     sum = 0;
                     spr = 1;
                 }
-            }
+           }
+            
             cout << height << "\n";
         }
-    }
+   }
     return 0;
 }
