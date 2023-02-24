@@ -35,7 +35,7 @@ int main()
                 {
                     height = height + 1;
                     sum = 0;
-                    spr = 1
+                    spr = 1;
                 }
            }
             
