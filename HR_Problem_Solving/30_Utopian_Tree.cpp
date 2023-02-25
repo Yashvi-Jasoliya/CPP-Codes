@@ -34,12 +34,12 @@ int main()
                 else
                 {
                     height = height + 1;
-                    sum = 0;
+                    sum = 0
                     spr = 1;
                 }
            }
             
-            cout << height << "\n"
+            cout << height << "\n";
         }
    }
     return 0;
