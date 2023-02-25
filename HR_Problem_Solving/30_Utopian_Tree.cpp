@@ -39,7 +39,7 @@ int main()
                 }
            }
             
-            cout << height << "\n";
+            cout << height << "\n"
         }
    }
     return 0;
