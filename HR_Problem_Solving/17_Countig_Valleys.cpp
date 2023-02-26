@@ -16,7 +16,7 @@ int main()
         
         if (str[i] == 'D')
         { // OR height==0;
-            height--
+            height--;
         }
         else if (str[i] == 'U')
         {
