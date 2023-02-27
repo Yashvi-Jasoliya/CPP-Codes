@@ -31,7 +31,7 @@ int main()
 
         if (k >= y)
         {
-            cout << "NO" << '\n';
+            cout << "NO" << '\n'
         }
         else
         {
