@@ -36,6 +36,6 @@ int main()
         
     }
 
-    cout << diff << "\n";
+    cout << diff << "\n"
     return 0;
 }
