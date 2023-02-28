@@ -33,6 +33,7 @@ int main()
         {
             diff++;
         }
+        
     }
 
     cout << diff << "\n";
