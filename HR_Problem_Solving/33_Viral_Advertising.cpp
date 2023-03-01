@@ -13,19 +13,19 @@ int viralAdvertising(int n)
 
     for (int i = 1; i <= n; i++)
     {
-
         liked_Ad = floor(shared_Ad / 2);
         shared_Ad = liked_Ad * 3;
         cumulative_likes = cumulative_likes + liked_Ad;
     }
 
     return cumulative_likes;
+    
 }
 
 int main()
 {
     int n;
-    cin >> n;
+    cin >> n
     cout << viralAdvertising(n);
 
     return 0;
