@@ -26,7 +26,7 @@ int main()
 {
     int n;
     cin >> n;
-    cout << viralAdvertising(n)
+    cout << viralAdvertising(n);
 
     return 0;
 }
