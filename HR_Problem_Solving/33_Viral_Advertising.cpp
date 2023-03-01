@@ -25,7 +25,7 @@ int viralAdvertising(int n)
 int main()
 {
     int n;
-    cin >> n
+    cin >> n;
     cout << viralAdvertising(n);
 
     return 0;
