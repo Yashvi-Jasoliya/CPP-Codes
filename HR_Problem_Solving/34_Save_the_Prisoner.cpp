@@ -18,7 +18,7 @@ int main()
         cin >> n_p >> n_s >> n_c;
 
         n_c--;
-        n_s--
+        n_s--;
 
         n_c = n_c + n_s;
         n_c = n_c % n_p;
