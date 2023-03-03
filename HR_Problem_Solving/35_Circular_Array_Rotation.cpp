@@ -19,7 +19,7 @@ int main()
         cin >> arr[i];
     }
 
-    k %= n
+    k %= n;
 
     for (int i = 0; i < q; i++)
     {
