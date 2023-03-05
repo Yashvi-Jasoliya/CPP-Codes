@@ -25,7 +25,7 @@ int main()
 
         if (c[clo])
         {
-            e = e - 2
+            e = e - 2;
         }
         e--;
 
