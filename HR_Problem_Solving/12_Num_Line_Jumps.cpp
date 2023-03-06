@@ -12,7 +12,7 @@ int main()
     int x2, v2;
     
     cin >> x1 >> v1;
-    cin >> x2 >> v2;
+    cin >> x2 >> v2
     
     if ((v1 <= v2) || ((x2 - x1) % (v2 - v1)))
     {
@@ -23,5 +23,5 @@ int main()
         cout << "YES";
     }
     
-    return 0
+    return 0;
 }
