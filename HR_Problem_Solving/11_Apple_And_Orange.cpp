@@ -10,7 +10,7 @@ vector<string> split(const string &);
 int main()
 {
     int aa = 0;
-    int oo = 0
+    int oo = 0;
     
     int s,t,a,b,m,n,x;
     scanf("%d %d %d %d %d %d",&s,&t,&a,&b,&m,&n);
@@ -29,5 +29,5 @@ int main()
 
     printf("%d\n%d\n",aa,oo);
 
-    return 0;
+    return 0
 }
