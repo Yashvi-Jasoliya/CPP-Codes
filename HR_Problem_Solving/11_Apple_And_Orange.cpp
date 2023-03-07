@@ -29,5 +29,5 @@ int main()
 
     printf("%d\n%d\n",aa,oo);
 
-    return 0
+    return 0;
 }
