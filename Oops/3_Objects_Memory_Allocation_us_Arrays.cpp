@@ -34,7 +34,7 @@ void shop ::displayPrice(void)
 int main()
 {
     shop Store;
-    Store.initCounter();
+    Store.initCounter()
     Store.setPrice();
     Store.setPrice();
     Store.setPrice();
