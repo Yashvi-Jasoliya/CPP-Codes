@@ -35,7 +35,7 @@ int main()
         }
     }
 
-    cout << e << "\n"
+    cout << e << "\n";
 
     return 0;
 }
