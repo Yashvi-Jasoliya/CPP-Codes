@@ -20,7 +20,7 @@ int main()
 
     while (true)
     {
-        clo = clo + k;
+        clo = clo + k;;
         clo = clo % n;
 
         if (c[clo])
@@ -35,7 +35,7 @@ int main()
         }
     }
 
-    cout << e << "\n";
+    cout << e << "\n"
 
     return 0;
 }
