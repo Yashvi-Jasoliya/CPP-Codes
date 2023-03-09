@@ -20,7 +20,7 @@ int main()
 
     while (true)
     {
-        clo = clo + k;;
+        clo = clo + k;
         clo = clo % n;
 
         if (c[clo])
