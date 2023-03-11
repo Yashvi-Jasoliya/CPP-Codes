@@ -43,7 +43,6 @@ int main()
     cin >> n;
 
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
-
     extraLongFactorials(n);
 
     return 0;
