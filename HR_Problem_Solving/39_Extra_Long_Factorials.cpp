@@ -26,7 +26,7 @@ void extraLongFactorials(int n)
             if (j == a.size() - 1)
                 a.push_back(0);
 
-            a[j + 1] = a[j + 1] + a[j] / 10
+            a[j + 1] = a[j + 1] + a[j] / 10;
             a[j] = a[j] % 10;
         }
     }
