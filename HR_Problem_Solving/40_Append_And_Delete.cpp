@@ -47,6 +47,6 @@ int main()
     int k;
     cin >> s >> t >> k;
 
-    cout << appendAndDelete(s, t, k) << "\n"
+    cout << appendAndDelete(s, t, k) << "\n";
     return 0;
 }
