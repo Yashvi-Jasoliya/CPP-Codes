@@ -24,7 +24,7 @@ string appendAndDelete(string s, string t, int k)
         {
             break;
         }
-        i++;
+        i++
     }
 
     k = k - (st_s + st_t) + (2 * i);
