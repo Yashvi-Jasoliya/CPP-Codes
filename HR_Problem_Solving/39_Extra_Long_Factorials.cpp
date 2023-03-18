@@ -15,7 +15,7 @@ void extraLongFactorials(int n)
     {
         for (auto k = a.begin(); k != a.end(); k++);
         {
-            *k = *k * i
+            *k = *k * i;
         }
 
         for (int j = 0; j < a.size(); j++)
