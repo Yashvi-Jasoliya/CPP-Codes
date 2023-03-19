@@ -11,7 +11,7 @@ string appendAndDelete(string s, string t, int k)
     int i = 0, st_s, st_t;
 
     st_s = s.length();
-    st_t = t.length()
+    st_t = t.length();
 
     if (k >= (st_s + st_t))
     {
