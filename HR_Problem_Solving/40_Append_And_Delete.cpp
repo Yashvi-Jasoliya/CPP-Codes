@@ -15,7 +15,7 @@ string appendAndDelete(string s, string t, int k)
 
     if (k >= (st_s + st_t))
     {
-        return "Yes";;
+        return "Yes";
     }
 
     while (i < st_s && i < st_t)
