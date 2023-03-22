@@ -20,7 +20,7 @@ int main()
         if (sqrt(a) - (int)sqrt(a) == 0)
             q++;
 
-        cout << q << "\n";
+        cout << q << "\n"
     }
-    return 0;
+    return 0
 }
