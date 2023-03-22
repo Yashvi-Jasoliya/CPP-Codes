@@ -22,5 +22,5 @@ int main()
 
         cout << q << "\n"
     }
-    return 0
+    return 0;
 }
