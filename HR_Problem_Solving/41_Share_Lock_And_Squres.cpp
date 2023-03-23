@@ -8,8 +8,8 @@ vector<string> split(const string &);
 
 int main()
 {
-    int n, a, b;
-    cin >> n;
+    int n, a, b
+    cin >> n
 
     while (n--)
     {
