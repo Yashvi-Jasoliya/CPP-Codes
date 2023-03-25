@@ -13,7 +13,7 @@ int main()
 
     while (n--)
     {
-        cin >> a >> b
+        cin >> a >> b;
 
         int q = (int)sqrt(b) - (int)sqrt(a);
         
