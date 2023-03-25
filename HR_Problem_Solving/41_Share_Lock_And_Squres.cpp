@@ -9,11 +9,11 @@ vector<string> split(const string &);
 int main()
 {
     int n, a, b;
-    cin >> n;
+    cin >> n
 
     while (n--)
     {
-        cin >> a >> b;
+        cin >> a >> b
 
         int q = (int)sqrt(b) - (int)sqrt(a);
         
