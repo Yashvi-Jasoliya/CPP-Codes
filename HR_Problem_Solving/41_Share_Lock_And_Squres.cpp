@@ -15,7 +15,7 @@ int main()
     {
         cin >> a >> b
 
-        int q = (int)sqrt(b) - (int)sqrt(a)
+        int q = (int)sqrt(b) - (int)sqrt(a);
         
         if (sqrt(a) - (int)sqrt(a) == 0)
             q++;
