@@ -12,7 +12,7 @@ int main()
     int d2, m2, y2;
 
     cin >> d1 >> m1 >> y1;
-    cin >> d2 >> m2 >> y2;
+    cin >> d2 >> m2 >> y2
 
     if (y1 > y2)
     {
