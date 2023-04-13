@@ -29,8 +29,8 @@ int main()
     cout << n << "\n";
 
     int ans = n;
-    for (int i = 1; i < n; i++)
-    {
+    for (int i = 1; i < n; i++){
+        
         if (arr[i] != arr[i - 1])
         {
             ans = ans - count;
@@ -42,5 +42,6 @@ int main()
             count++;
         }
     }
+    
     return 0;
 }
