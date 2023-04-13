@@ -39,9 +39,9 @@ int main()
         }
         else
         {
-            count++;
+            count++
         }
     }
     
-    return 0;
+    return 0
 }
