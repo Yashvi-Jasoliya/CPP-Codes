@@ -9,7 +9,8 @@ vector<string> split(const string &);
 int main()
 {
     int n, k;
-    cin >> n >> k;
+    cin >> n ;
+    cin >> k ;
 
     vector<int> s(k);
 
