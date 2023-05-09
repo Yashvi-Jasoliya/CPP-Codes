@@ -7,25 +7,25 @@ string rtrim(const string &);
 
 int main()
 {
-    string s;
-    cin >> s;
+    string st;
+    cin >> st;
+    
     long long n;
     cin >> n;
 
     long long count = 0;
-    for (int i = 0; i < s.size(); i++)
+    for (int i = 0; i < st.size(); i++)
     {
-        if (s[i] == 'a')
+        if (st[i] == 'a')
         {
             count++;
         }
     }
 
-    long long ans = (n / s.size()) * count;
-
-    for (int i = 0; i < n % s.size(); i++)
+    long long ans = (n / st.size()) * count;
+    for (int i = 0; i < n % st.size(); i++)
     {
-        if (s[i] == 'a')
+        if (st[i] == 'a')
         {
             ans++;
         }
