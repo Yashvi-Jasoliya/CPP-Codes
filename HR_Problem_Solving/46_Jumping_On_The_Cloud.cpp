@@ -10,7 +10,8 @@ int main()
 {
     int n;
     cin >> n;
-    vector<int> c(n, INT_MAX / 2);
+    ector<int> c(n, INT_MAX / 2);
+    
     for (int i = 0; i < n; i++)
     {
         int p;
@@ -34,7 +35,8 @@ int main()
         {
             c[i] = min(c[i - 1], c[i - 2]) + 1;
         }
-        }
+    }
+    
     cout << c.back() << "\n";
 
     return 0;
