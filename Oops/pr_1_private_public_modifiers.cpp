@@ -2,8 +2,7 @@
 
 using namespace std;
 
-class Employee
-{
+class Employee{
 private:
     int a, b, c;
 
