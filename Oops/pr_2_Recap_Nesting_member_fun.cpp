@@ -1,4 +1,4 @@
-// Few summary points :-
+// Few summary points:-
 
 // OOPs -  classes and objects
 
