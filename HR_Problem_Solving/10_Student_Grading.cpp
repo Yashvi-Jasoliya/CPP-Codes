@@ -7,6 +7,7 @@ string rtrim(const string &);
 
 int main()
 {
+    
     int n;
     cin >> n;
     
